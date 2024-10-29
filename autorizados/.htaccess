@@ -1,0 +1,5 @@
+AuthUserFile "/etc/apache2/claves.txt"
+AuthGroupFile "/etc/apache2/grupos.txt"
+AuthName "Identificate con tu usuario"
+AuthType Basic
+Require group admin
